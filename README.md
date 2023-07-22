@@ -1,1 +1,1 @@
-# comp-3350-project-website
+# Highschool Hub
