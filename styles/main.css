@@ -1,12 +1,21 @@
 .jumbotron {
   padding: 4rem 2rem;
-  margin-bottom: 2rem;
   background-color: var(--bs-light);
   border-radius: .3rem;
 }
 
-.indent {
-  text-indent: 2em;
+.jumbotron-bg {
+  background-color: var(--bs-black);
+  background-image: url("../assets/subtle-prism.svg");
+  /* background by SVGBackgrounds.com */
+}
+
+.jumbotron-text {
+  color: var(--bs-white);
+}
+
+.carousel-bg {
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .team-card {
@@ -17,8 +26,28 @@
   max-width: 1em;
 }
 
-.carousel-bg {
-  background: rgba(0, 0, 0, 0.4);
+.large-icon {
+  max-width: 200px;
+}
+
+.block-padding {
+  padding: 4em 8em;
+}
+
+.alt-bg-block {
+  background-color: var(--bs-light);
+}
+
+.test-width {
+  width: 100%;
+}
+
+.indent {
+  text-indent: 2em;
+}
+
+.justify {
+  text-align: justify;
 }
 
 /* Featurettes
@@ -46,5 +75,18 @@
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .text-block {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-padding {
+    padding: 2em;
   }
 }
