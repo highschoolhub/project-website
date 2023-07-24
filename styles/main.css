@@ -32,6 +32,11 @@
   max-width: 200px;
 }
 
+.feature-img-border {
+  border: thick solid var(--bs-dark);
+  border-radius: 2%;
+}
+
 .block-padding {
   padding: 4em 8em;
 }
