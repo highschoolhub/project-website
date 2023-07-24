@@ -4,14 +4,16 @@
   border-radius: .3rem;
 }
 
-.jumbotron-bg {
-  background-color: var(--bs-black);
+.jumbotron-dark-bg {
+  background-color: var(--bs-dark);
   background-image: url("../assets/subtle-prism.svg");
   /* background by SVGBackgrounds.com */
 }
 
-.jumbotron-text {
-  color: var(--bs-white);
+.jumbotron-light-bg {
+  background-color: var(--bs-light);
+  background-image: url("../assets/diamond-sunset.svg");
+  /* background by SVGBackgrounds.com */
 }
 
 .no-bg {
@@ -40,6 +42,14 @@
 
 .alt-bg-block {
   background-color: var(--bs-light);
+}
+
+.light-text {
+  color: var(--bs-light);
+}
+
+.dark-text {
+  color: var(--bs-dark);
 }
 
 .test-width {
