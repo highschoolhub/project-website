@@ -13,6 +13,14 @@
   max-width: 20em;
 }
 
+.team-icon {
+  max-width: 1em;
+}
+
+.carousel-bg {
+  background: rgba(0, 0, 0, 0.4);
+}
+
 /* Featurettes
 ------------------------- */
 
