@@ -16,10 +16,6 @@
   /* background by SVGBackgrounds.com */
 }
 
-.no-bg {
-  background: none !important;
-}
-
 .carousel-bg {
   background: rgba(0, 0, 0, 0.4);
 }
@@ -61,7 +57,11 @@
 }
 
 .justify {
-  text-align: justify;
+  text-align: justify !important;
+}
+
+.left {
+  text-align: left !important;
 }
 
 /* Featurettes
