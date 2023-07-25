@@ -1,3 +1,8 @@
+#navbar {
+  background-color: var(--bs-white);
+  border-bottom: thick solid var(--bs-primary);
+}
+
 .jumbotron {
   padding: 4rem 2rem;
   background-color: var(--bs-light);
@@ -20,14 +25,50 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
+.home-card {
+  max-width: 10em;
+}
+
+.home-img {
+  border: 1em solid var(--bs-primary);
+  border-radius: 50%;
+}
+
+.home-bg {
+  background-color: #545b61;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.high-school-bg {
+  background-image: url("../assets/high-school.jpg");
+}
+
+.home-btn {
+  white-space: nowrap;
+  padding-left: 1em;
+  padding-right: 2em;
+  margin-top: 0 !important;
+}
+
+.jumbotron-home {
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
 .team-divider {
   width: 10%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.team-icon {
+.small-icon {
   max-width: 1em;
+}
+
+.med-icon {
+  max-width: 100px;
 }
 
 .large-icon {
@@ -44,7 +85,7 @@
 }
 
 .alt-bg-block {
-  background-color: var(--bs-light);
+  background-color: var(--bs-gray-200);
 }
 
 .light-text {
@@ -71,6 +112,15 @@
   text-align: left !important;
 }
 
+ul {
+  width: fit-content;
+}
+
+.list-group-item::before {
+  content: "●";
+  margin-right: 0.75rem;
+}
+
 /* Featurettes
 ------------------------- */
 
@@ -88,7 +138,7 @@
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  .featurette-heading {
+  .featurette-heading, .home-title {
     font-size: 50px;
   }
 }
