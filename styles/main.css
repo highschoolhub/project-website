@@ -20,8 +20,10 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-.team-card {
-  max-width: 80%;
+.team-divider {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-icon {
