@@ -33,13 +33,40 @@
       <div class="container">
         <div class="row px-5 py-4">
           <div class="col-md-8">
-            <h2 class="featurette-heading text-primary">Creating An Account</h2>
-            <!-- TODO: Write a description of the functionality -->
-            <p class="lead justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 class="featurette-heading text-primary">Create An Account</h2>
+            <p class="lead justify">Create an account to get started. Enter your details for your profile,
+              and you're all set to start using the app! After registering, you can log into your new account
+              at any time using your username and password.</p>
           </div>
           <div class="col-md-4">
-            <!-- TODO: Replace the placeholder image with a sample from the app -->
-            <img src="../assets/imgs/placeholder.jpg" class="img-fluid feature-img-border" />
+            <div id="accountCarousel" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#accountCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#accountCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img src="../assets/imgs/registration.png" class="img-fluid feature-img-border" />
+                  <div class="carousel-caption carousel-bg">
+                    <p>Register</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../assets/imgs/login.png" class="img-fluid feature-img-border" />
+                  <div class="carousel-caption carousel-bg">
+                    <p>Login</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#accountCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#accountCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
