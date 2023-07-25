@@ -3,6 +3,11 @@
   border-bottom: thick solid var(--bs-primary);
 }
 
+#footer {
+  background-color: var(--bs-white);
+  border-top: thick solid var(--bs-primary);
+}
+
 .jumbotron {
   padding: 4rem 2rem;
   background-color: var(--bs-light);
