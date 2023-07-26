@@ -68,6 +68,15 @@
   margin-right: auto;
 }
 
+.feature-video {
+  max-width: 100%;
+}
+
+.feature-video-border {
+  border: 20px solid var(--bs-dark);
+  border-radius: 2%;
+}
+
 .small-icon {
   max-width: 1em;
 }
@@ -78,11 +87,6 @@
 
 .large-icon {
   max-width: 200px;
-}
-
-.feature-img-border {
-  border: 20px solid var(--bs-dark);
-  border-radius: 2%;
 }
 
 .block-padding {
