@@ -7,7 +7,7 @@ let navbar = `
     <a class="navbar-brand text-primary me-4" href="../index.html">
       <div class="d-flex align-items-center">
         <img class="small-icon" src="${assetsPrepend}assets/svgs/school-solid.svg" />&nbsp;&nbsp;
-        <span>Highschool Hub</span>
+        <span class="text-decoration-underline">Highschool Hub</span>
       </div>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
