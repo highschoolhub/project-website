@@ -78,6 +78,14 @@
   border-radius: 2%;
 }
 
+.med-icon-shadow {
+  filter: drop-shadow(5px -1px 0 var(--bs-dark));
+}
+
+.large-icon-shadow {
+  filter: drop-shadow(8px 5px 0 var(--bs-dark));
+}
+
 .small-icon {
   max-width: 1em;
 }
