@@ -20,23 +20,12 @@
 .jumbotron {
   padding: 4rem 2rem;
   background-color: var(--bs-light);
-  border-radius: .3rem;
 }
 
 .jumbotron-dark-bg {
   background-color: var(--bs-dark);
-  background-image: url("../assets/icons/subtle-prism.svg");
-  /* background by SVGBackgrounds.com */
-}
-
-.jumbotron-light-bg {
-  background-color: var(--bs-light);
   background-image: url("../assets/icons/diamond-sunset.svg");
   /* background by SVGBackgrounds.com */
-}
-
-.carousel-bg {
-  background: rgba(0, 0, 0, 0.4);
 }
 
 .home-card {
@@ -55,8 +44,10 @@
   background-blend-mode: multiply;
 }
 
-.high-school-bg {
-  background-image: url("../assets/imgs/high-school.jpg");
+.home-jumbotron-bg {
+  background-image: url("../assets/icons/bullseye-gradient.svg");
+  background-position: center;
+  background-size: cover;
 }
 
 .home-btn {
@@ -67,8 +58,7 @@
 }
 
 .jumbotron-home {
-  padding-top: 10em;
-  padding-bottom: 10em;
+  height: calc(100vh - 61px);
 }
 
 .team-divider {
@@ -178,7 +168,6 @@ ul {
     text-align: justify !important;
   }
 }
-
 
 @media (min-width: 800px) {
   .text-block {
