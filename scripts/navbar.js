@@ -6,7 +6,7 @@ let navbar = `
   <div class="container">
     <a class="navbar-brand text-primary me-4" href="../index.html">
       <div class="d-flex align-items-center">
-        <img class="small-icon" src="${assetsPrepend}assets/icons/school-solid.svg" />&nbsp;&nbsp;
+        <img class="small-icon" src="${assetsPrepend}assets/svgs/school-solid.svg" />&nbsp;&nbsp;
         <span>Highschool Hub</span>
       </div>
     </a>

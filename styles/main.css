@@ -24,7 +24,7 @@
 
 .jumbotron-dark-bg {
   background-color: var(--bs-dark);
-  background-image: url("../assets/icons/diamond-sunset.svg");
+  background-image: url("../assets/svgs/diamond-sunset.svg");
   /* background by SVGBackgrounds.com */
 }
 
@@ -45,7 +45,7 @@
 }
 
 .home-jumbotron-bg {
-  background-image: url("../assets/icons/bullseye-gradient.svg");
+  background-image: url("../assets/svgs/bullseye-gradient.svg");
   background-position: center;
   background-size: cover;
 }
