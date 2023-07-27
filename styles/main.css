@@ -98,6 +98,10 @@
   max-width: 200px;
 }
 
+h1, h2 {
+  font-weight: bolder;
+}
+
 .block-padding {
   padding: 4em 8em;
 }
