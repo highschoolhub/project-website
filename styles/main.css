@@ -10,6 +10,8 @@
 #navbar {
   background-color: var(--bs-white);
   border-bottom: thick solid var(--bs-primary);
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #footer {
