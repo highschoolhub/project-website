@@ -122,10 +122,6 @@
   text-indent: 2em;
 }
 
-.justify {
-  text-align: justify !important;
-}
-
 .left {
   text-align: left !important;
 }
@@ -151,6 +147,11 @@ ul {
   letter-spacing: -.05rem;
 }
 
+.featurette-padding {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -164,6 +165,17 @@ ul {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media (min-width: 480px) {
+  .featurette-padding {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+
+  .justify {
+    text-align: justify !important;
   }
 }
 
