@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Nunito&family=Open+Sans&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
 
 :root {
   --bs-font-sans-serif: 'Raleway', system-ui, -apple-system,
@@ -78,6 +79,14 @@
   border-radius: 2%;
 }
 
+.med-icon-shadow {
+  filter: drop-shadow(5px -1px 0 var(--bs-dark));
+}
+
+.large-icon-shadow {
+  filter: drop-shadow(8px 5px 0 var(--bs-dark));
+}
+
 .small-icon {
   max-width: 1em;
 }
@@ -88,6 +97,10 @@
 
 .large-icon {
   max-width: 200px;
+}
+
+h1, h2, .navbar-brand {
+  font-family: 'Tauri', var(--bs-font-sans-serif);
 }
 
 .block-padding {
@@ -174,6 +187,10 @@ ul {
 @media (min-width: 800px) {
   .text-block {
     max-width: 75%;
+  }
+
+  #mainTitle {
+    font-size: 6em;
   }
 }
 
